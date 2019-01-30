@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 初始化标签在所有浏览器中的margin、padding值 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+fieldset,img {border:0 none}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+dl,ul,ol,menu,li {list-style:none}
+/* 重置嵌套引用的引号类型 */
+blockquote, q {quotes: none}
+/* 重置嵌套引用*/
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+/* 重置表单控件垂直居中*/
+input,select,textarea,button {vertical-align:middle;outline: none;}
+/* 重置表单button按钮效果 */
+button {border:0 none;background-color:transparent;cursor:pointer}
+/* 重置body 页面背景为白色 */
+body {background:#fff}
+/* 重置链接a标签 */
+a {color:#666;text-decoration:none}
+/* 重置链接a标签的鼠标滑动效果 */
+a:active, a:hover {text-decoration:none}
+/* 图片在当前行内的垂直位置 */
+img{vertical-align:top}
+  /* 取消a标签点击后的虚线框 */
+a {outline: none;}
+/* 清除 li的样式 */
+li {
+  list-style-type: none;
+}
+/* 设置为边框盒模型 */
+* {box-sizing: border-box;}
